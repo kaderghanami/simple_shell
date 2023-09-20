@@ -42,7 +42,7 @@ void printerror(char *name, char *cmd, int indx)
     write(STDERR_FILENO, ": ", 2);
     write(STDERR_FILENO, index,_strlen(index));
     write(STDERR_FILENO, ": ",2);
-    write(STDERR_FILENO, cmd,_strlen(cmd)));
+    write(STDERR_FILENO, cmd,_strlen(cmd));
     write(STDERR_FILENO, mssg,_strlen(mssg));
 
     free(index);

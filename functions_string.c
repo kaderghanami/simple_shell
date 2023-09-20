@@ -38,9 +38,9 @@ char *_strdup(const char *str)
         len++;
 
     ptr = malloc(sizeof(char) * (len +1));
-    if(ptr=NULL)
+    if(ptr == NULL)
         return (NULL);
-    for (i=; i <=len; i++)
+    for (i=0 ; i <=len; i++)
         ptr[i] = str[i];
     return (ptr);
 }

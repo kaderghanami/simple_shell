@@ -46,7 +46,7 @@ char *_getpath(char *command)
             }
             free(full_cmd), full_cmd = NULL;
 
-            dir = strtok(NULL, ":")
+            dir = strtok(NULL, ":");
         }
     }
     free(path_env);
